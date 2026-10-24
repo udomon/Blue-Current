@@ -5,7 +5,7 @@ public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance;
     public int score = 0;
-    public TMP_Text scoreText; // your UI score text
+    public TMP_Text scoreText; // score text on screen
     public int lives = 5;
     public TMP_Text livesText;
     public GameObject FishCatchSound;

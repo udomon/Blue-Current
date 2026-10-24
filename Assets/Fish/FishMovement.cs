@@ -19,7 +19,7 @@ public class FishMovement : MonoBehaviour
     {
         
         body.linearVelocity = new Vector2(5*multiplier, 0);
-        if (transform.position.x > 10 || transform.position.x <-10) // or whatever your boundary is
+        if (transform.position.x > 10 || transform.position.x <-10) // off screen
         {
             Destroy(gameObject); // remove fish if it goes off-screen
         }

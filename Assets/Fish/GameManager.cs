@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public GameObject gameOverScreen; // drag your Game Over UI panel here
+    public GameObject gameOverScreen; // game over panel
     public GameObject EndSound;
 
 

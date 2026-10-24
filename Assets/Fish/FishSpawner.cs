@@ -3,7 +3,7 @@ using UnityEngine;
 public class FishSpawner : MonoBehaviour
 {
     //all for pink fish
-    public GameObject[] fishPrefabs;   // drag your fish prefab here
+    public GameObject[] fishPrefabs;   // fish prefabs to spawn
     public float spawnInterval = 2f; // seconds between spawns
     public float spawnX = 10f;       // fixed X position
     public float minY = -4f;         // minimum Y
