@@ -27,11 +27,10 @@ public class FishMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Check it's the player (or whatever should collect the fish)
+        // check the fish hit the hook
         if (other.CompareTag("Hook"))
         {
-            //ScoreManager.Instance.AddScore(1); // or however you track score
-            Destroy(gameObject); // optional: remove fish on collection
+            Destroy(gameObject); // remove fish when caught
             ScoreManager.Instance.AddScore(1);
             Debug.Log("Fish collected!"); // for testing purpose
         }

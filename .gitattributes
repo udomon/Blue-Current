@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# TextMesh Pro shaders aren't mine, so don't count them in the language stats
+Assets/TextMesh[[:space:]]Pro/** linguist-vendored
